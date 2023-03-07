@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tölvustuddur skurður</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Tölvustuddur skurður</h1>
+						<p>Hér verður fjallað um verkefni þar sem ég hannaði og skar út geirneglt (pressfit) módel. </p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main"><img src="images/dome1.jpg" alt="" /></span>
+								<h2><b>Markmið</b></h2>
+								<p>Markmið verkefnisins var að útbúa og laser skera pressfit einingar sem hægt væri að setja saman. Módel af einingunum þarf að vera skalanlegt með parametrískum breytum þannig hægt sé að stilla kerf, efnisþykkt, lengd, breidd og aðrar breytur. Hægt var að velja á milli tveggja gerðar af efni, birkikrossvið eða akríl (glært, svart eða hvítt) og var platan 500mm x 500 mm.
+                                </p>
+							</section>
+                        
+                            <section id="content" class="main">
+                                <h2><b>Hugmyndavinna</b></h2>
+                                <p>Ég byrjaði á að fara inn á Google og skoða svipuð verkefni til að fá hugmyndir. Ég ákvað að nota birkikrossviðinn því mér fannst það vera fallegasta efnið.</p>
+                                <p style="text-align:center;"><img src="images/hugmynd1.jpg" alt="" /></p>
+                                <p>Ég fann þessa mynd og ákvað að gera mjög svipað nema einn bolta eða "dome". Hluturinn er úr tveimur einingum sem ég mun kalla festingu og arm.</p>
+                        </section>
+                        
+                            <section id="content" class="main">
+                                <h2><b>Undirbúningur</b></h2>
+                                <p>Áður en eitthvað var hægt að gera varð að ákvarða kerf-ið á laser skeraranum, þ.e. þykktina á lasernum þegar hann sker gegnum efnið. <a href="https://ado15.github.io/Heimasida/project2H.html?fbclid=IwAR3LccJ1xfz8403EynJ6AjZC6bZ43Qg5HhTQ3EP1xFLXK1bNXFM9Cs-xVyM">Hér</a> má sjá góða lýsingu á því hvernig það er gert. Eftir tilraun kom í ljós að kerf-ið fyrir okkar skerara væri 0,22 mm.</p>
+                                <p>Þá var loks hafist handa við að hanna módelið. Ég ákvað að nota <a href="https://www.autodesk.com/products/inventor/overview?term=1-YEAR&tab=subscription">Inventor 2023</a> til að teikna upp módelið því ég hef góða reynslu á því. Einnig notaði einnig forritið <a href="https://inkscape.org/">Inkscape</a> til þess að geta skorið út hlutinn en nánar um það seinna.</p><p style="text-align:center;"><img src="images/inventor.png" alt="Inventor" ><img src="images/inkscape.png" alt="" width="150" height="150"></p>
+                            </section>
+                                
+                            <section id="content" class="main">
+                                <h2><b>Framkvæmd</b></h2>
+                                <p></p>
+                                <h3>Inventor vinna</h3>
+                                <p>Ég byrjaði á að teikna arminn. Fyrst slumpaði ég einhverjum tölum inn í parametrana og breytti þeim þangað til að ég var sáttur með útlitið.</p><p style="text-align:center;"><img src="images/armur.png" alt="" width="640" height="360"></p>
+                                <p>Síðan teiknaði ég festingarnar sem festa alla armana saman. Mikilvægt er að bilið þarf sem armurinn og festingin festast saman sé sama og efnisþykktin svo allt helst þétt saman.</p>
+                                <p style="text-align:center;"><img src="images/festing.png" alt="" width="640" height="360"></p>
+                                <p>Nú þegar 2D teikningarnar voru komnar þá þurfti að gera ráð fyrir kerfinu áður en lengra var haldið. Það var gert með að taka 2D sketchin og offsetta þær með hálfri lengdinni á kerf (0,11 mm) og notaði ég offset fítusinn í Inventor (Sjá myndina að neðan). Mikilvægt er að nota hálft kerf því laserinn mun elta jaðarinn sem við höfum nú búið til með að offsetta og mun brenna upp hálft kerf sitthvorum megin við línuna. Síðan eyddi ég "gömlu" línunum sem eru að innanverðu.</p><p style="text-align:center;"><img src="images/offset.png" alt="" ></p>
+                                <p>Ég gerði þetta bæði fyrir festinguna og arminn og vistaði teikningarnar sem .dxf file. Til gamans gaf ég teikningunum efnisþykkt og gerði assembly til að sjá hvernig hluturinn myndi líta út í 3D.</p>
+                                <p style="text-align:center;"><img src="images/View2.png" alt="" >
+                                </p>
+                                <p>Hérna sést hvernig hann er settur saman.
+                                </p>
+                                <p style="text-align:center;"><img src="images/View1.png" alt="" width="496.5" height="363.5" >
+                                </p>
+                                <p></p>
+                                <h3>Inkscape</h3>
+                                <p>Núna kom ég .dxf file-unum sem ég bjó til inn í Inscape og raðaði þeim upp á blaðið mitt sem var stillt á 500mm x 500mm því það er stærðin á plötunni sem ég mun skera.</p>
+                                <p style="text-align:center;"><img src="images/plata.png" alt="" >
+                                </p>
+                                <p>Til að stilla línuþykktir fór ég í Object > Fill and Stroke (eða Shift+Ctrl+F) og valdi ég undir Fill flipanum > No paint, Stroke paint > Flat color og loks Sroke style > Width > 0,2 mm. Mikilvægt er að stilla á mm, ekki px sem er default. Þegar allt það var komið þá vistaði ég sem pdf og setti á USB lykil og tengdi við laser skerarann. Eitt stykki krossviðsplata var sett í skerarann og var skurðurinn settur í gang. Ég stillti skerarann þannig að Speed = 10, Power = 100 og Freq. = 10.</p>
+                                <p style="text-align:center;"><img src="images/eftirskurd.jpg" alt="" width="496.5" height="363.5"width="496.5" height="363.5">
+                                </p>
+                        </section>
+                                
+                                <section id="content" class="main">
+                                <h2><b>Niðurstaða</b></h2>
+                                <p>Hér má sjá mynd of lokaniðurstöðunni. Verkefnið gekk mjög vel fyrir sig. Ég lenti í því að þurfa að skera hlutinn tvisvar sinnum því fyrst gleymdi ég að stilla blaðið mitt í mm frekar en px svo ekki var hægt að púsla hlutnum saman. En eftir að ég breytti í mm og skar aftur gekk allt upp.</p>
+                                <p style="text-align:center;"><img src="images/nidurstada.jpg" alt="" width="500" height="500"/></p>
+                                <p>Mínar ráðleggingar til þann sem vill gera svipað verkefni er að nota Inventor því það er miklu einfaldara að mínu mati.</p>
+                        </section>
+ 
+                               
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Alexander Leonard Vidal</h2>
+							<dl class="alt">
+								<dt>Phone</dt>
+								<dd>(+354) 780 2005</dd>
+								<dt>Email</dt>
+								<dd><a href="#">alv18@hi.is</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://twitter.com/lexinho97" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/FUUUFA" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/lexinho97/" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/alexanderlvidal" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								
+							</ul>
+						</section>
+						
+					</footer>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
