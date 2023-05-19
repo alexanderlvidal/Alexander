@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <i class="fas fa-house"></i>
 	</head>
 	<body class="is-preload">
 
@@ -22,13 +23,22 @@
 						<h1>Making a website</h1>
 						<p>Below you will find a description of my process making this website.</p>
 					</header>
+                        
+			
+				
 
+                                
+
+				<!-- Main -->
+					<div id="main">
+
+
+                    
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Content -->
 							<section id="content" class="main">
-								<span class="image main"><img src="images/making_a_website.jpg" alt="" /></span>
 								<h2>Objective</h2>
 								<p>The objective of this project was to create a functional website using HTML5 and write in detail how the website was created. The website should also have my contact information as well as my resume.</p>
 							</section>
@@ -36,26 +46,79 @@
                             <section id="content" class="main">
                                 <h2>Methodology</h2>
                                 <b>Step 1</b>
-                                <p>I learned the basics from lectures and the website W3Schools.com provited by my professor.</p>
+                                <p>I learned the basics of HTML from lectures on <a href="https://www.youtube.com/watch?v=JfDa07tpTJo&list=PLGuNTpc293hpIpAVSJ3-SgNolCTa1BfJE&index=3">Canvas</a> and the website <a href="https://www.w3schools.com/html/">W3 Schools</a>. Once I understood the basics i read the <a href="https://haskoliislands.instructure.com/courses/24153/assignments/88375">project description</a> and got started.
+                                </p>
+                                
                                 
                                 <b>Step 2</b>
-                                <p>I made an account at github.com and downloaded the programs: brackets og git-scm. </p>
+                                <p>I made an account at <a href="https://github.com">github</a> and downloaded the program called Brackets via <a href="https://brackets.io">this link.</a> Brackets is a great and simple program to use to write HTML code and the Live Preview feature is very helpful.
+                                </p>
+                                <p style="text-align:center;"><img src="images/live_editor.png" alt="" width="500" height="260"/></p>
                                 
                                 <b>Step 3</b>
-                                <p>I found a free open source template at html5up and I uploaded the template to the Brackets application</p>
+                                <p>I found a free open source template at <a href="https://html5up.net">HtmlUp</a> called <a href="https://html5up.net/stellar">Stellar</a>. I downloaded the template and saved it to a folder called "Alexander - Main" on my desktop. In this folder i will keep all my html files, images, pdf's and more data for my website. The file called "index.html" is the html file for the home page on the website. I opened the index file with Brackets.</p>
+                                <p style="text-align:center;"><img src="images/index.png" alt="" width="600" height="260"/></p>
                                 
                                 <b>Step 4</b>
-                                <p>Finally I began to edit and write code in the template to display what I wanted until I was happy with the results.</p>
+                                <p>Finally I began to edit and write code in the Index file to display what I wanted on the home page until I was happy with the results. To make a new section or article dedicated to this project I made a new html file in my website folder called "making_a_website.html" and used the following code shown on the image bellow.</p>
+                                <p style="text-align:center;"><img src="images/making_a_website.png" alt="" width="600" height="260"/></p>
+                                <p style="text-align:center;"><img src="images/code_for_website.png" alt="" width="500" height="170"/></p>
+                                <p>
+                                In these lines of code i could add an small image for the article. This was the result:</p>
+                                <p style="text-align:center;"><img src="images/portfolio.png" alt="" width="500" height="450"/></p>
+                                
+                                <p>
+                                Once my homepage was ready I opened the making_a_webiste.html file in Bracket and started writing the code for the page you are reading now. I didnt really edit the original template much, just filled in the gaps and added images.</p>
                                 
                                 <b>Step 5</b>
-                                <p>On the github website I created a new repository and uploaded all my files and published the website.</p>
+                                <p>On the github website I created a new repository and uploaded all my files from my website folder. Heres how I did it. (Use this <a href="https://github.com/alexanderlvidal/Alexander">link</a> to see the repository.)
+                                </p>
+                                <p style="text-align:center;"><img src="images/newrespo.png" alt="" width="275" height="315"/></p>
+                                <p>Pro tip:</p>
+                                <p>Make sure to check the box "Add a README file". By doing this you will not need gitbash to upload your files to github like the project description suggests. You simply press "Add file" -> "Upload Files" and drag the files from your website folder and press "Commit changes" and you are done.</p>
+                                <p style="text-align:center;"><img src="images/readme.png" alt="" width="990" height="440"/></p>
                                 
-                                <h2>Then my website was completed :)</h2>
+                                <p style="text-align:center;"><img src="images/upload.png" alt="" width="900" height="400"/></p>
+                                
+                                <p style="text-align:center;"><img src="images/drag.png" alt="" width="900" height="400"/></p>
+                        
+                                <h3>Then my website was completed :)</h3>
+                                <p>Feel free to download the homepage code to help you get started.</p>
+                                <button onclick="document.getElementById('link').click()">Download index.html</button>
+                                <a id="link" href="https://raw.githubusercontent.com/alexanderlvidal/Alexander/main/index.html" download hidden></a>
+                        </section>
+                        
+                        
+                         <section id="content" class="main">
+                                <h2>Main challenges and how I dealt with them</h2>
+                             <b>Number 1 - Images</b>
+                                <p>At first I had problems sizing and centering my images. After few Google searches I found the following code:
+                                <p style="text-align:center;"><img src="images/image_upload.png" alt="" width="772" height="65"/></p>
+                             <p>
+                             With this code I can insert an image by searching the in the image folder. Here I can select where to position an image and select the size
+                             </p>
+                             <b>Number 2 - Adding a home button</b>
+                             <p>I knew I needed to add a somekind of a button to take the user back to the homepage but I wasn't sure how I could do that. I wanted to have header on top of the page with a little home icon that stays in the same place as you scroll down. After I tried for 1,5 hours to make something work, googling and reading W3 school's webpage, I realized the template I'm using doesn't support that kind of a wrapper. In order to accomplish what I wanted, I needed to reprogram the main.css file and it's really involved to do. My best bet would be changing to a another template. I plan on doing that in the future but the good old back button have to do for now.
+                             </p>
+                             
+                        </section>
+                        
+                        <section id="content" class="main">
+                            <h2>Resume</h2>
+                            <p>Thankfully I already had a resume ready before this project so I only needed to find a way for the user to access it. I decided to add a button that can be pressed and the resume will be downloaded as a pdf file. I used the following code:</p>
+                            <p style="text-align:center;"><img src="images/kodi_cv.png" alt="" width="650" height="100"/></p>
+                            <p>Then I uploaded the pdf to my respository</p>
+                            
                         
                         
                         </section>
-
-					</div>
+                        
+                        <section id="content" class="main">
+                            <h2>Search Engine Keywords</h2>
+                            <p>github - html5 - W3 school - images in html - icons in html - .css file</p>
+                        </section>
+                        
+					
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -76,9 +139,11 @@
 							</ul>
 						</section>
 						
-					</footer>
+					<footer>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+                        </footer>
+                    
+                
 
 			</div>
 
